@@ -3,6 +3,9 @@
     padding: 0;
     margin: 0;
 }
+html {
+    scroll-behavior: smooth;
+}
 body{
     background-color: #ebebeb;
 }
@@ -34,7 +37,7 @@ body{
 }
 .hero-img-section{
     display: flex;
-    background-image: url(./pictures/background.png) , linear-gradient(rgba(0, 0, 0, .4), rgba( 0, 0, 0, .4));;
+    background-image: url(./pictures/background.png) , linear-gradient(rgba(0, 0, 0, .7), rgba( 0, 0, 0, .7));;
     background-size: cover;
     height: 100vh;
     align-items: center;
@@ -55,6 +58,7 @@ body{
     border-radius: 10px;
     cursor: pointer;
     margin:10px;
+    text-decoration: none;
 
 }
 .green-btn{
@@ -112,7 +116,7 @@ body{
     box-shadow: -23px -23px #999;
     padding: 20px;
     font-size: 20px;
-    margin: 50px 0;
+    margin: 50px 0px;
 
 }
 .img-container{
@@ -120,14 +124,13 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 50px 0;
+    margin: 50px 0px;
 }
 .about-me-img{
     height: 400px;
     background-color: #bbb;
     box-shadow: #999 -23px -23px;
     border-radius: 20px;
-
 }
 
 /************** Skills Section *************/
@@ -174,4 +177,19 @@ body{
 .skills-description{
     max-width: 200px;
     padding: 15px;
+}
+/************************* PROJECTSSSS ********************/
+.projects-section{
+    min-height: 100vh;
+    background-color: #333;
+    color: #eee;
+}
+.projects-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit , minmax(400px , 2fr));
+    grid-gap:30px;
+}
+.project{
+    background-color: #444;
+    min-height: 300px;
 }
