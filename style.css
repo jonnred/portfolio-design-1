@@ -2,6 +2,10 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    font-family: 'Magra',
+    sans-serif;
+    font-family: 'Open Sans',
+    sans-serif;
 }
 html {
     scroll-behavior: smooth;
@@ -48,6 +52,7 @@ body{
 }
 .hero-img-section h1{
     font-size: 3em;
+    font-weight: 1600;
     text-align: center;
     margin:20px 0;
     color: #aaa;
@@ -116,21 +121,13 @@ body{
     max-width: 400px;
     padding: 20px;
     font-size: 20px;
+    transition: 1s;
 
 }
-.img-container {
-    flex-grow: 1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 20px;
+.about-me-content-text:hover{
+    transform: translateY(-20px);
 }
-.img-container img{
-    width: 100%;
-}
-.proj-img-container img{
-    width: 100%;
-}
+
 .about-me-img{
     max-width: 400px;
     background-color: #bbb;
@@ -197,9 +194,12 @@ body{
 .project{
     position: relative;
     background-color: #444;
-    max-height: 300px;
     max-width: 300px;
+    padding: 0px 10px 10px 10px;
 }
 .project-directory{
     color:#fff;
+}
+.proj-img-container img {
+    width: 100%;
 }
