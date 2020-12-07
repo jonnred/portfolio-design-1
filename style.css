@@ -92,9 +92,10 @@ body{
     min-height: 100vh;
 }
 .about-me-container{
-    margin-top: 8   0px;
+    margin-top: 80px;
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
 }
 .underline-design{
     background-color: green ;
@@ -107,16 +108,14 @@ body{
     flex-grow:1;
     display: flex;
     justify-content: center;
-    padding: 20px;
+    margin: 20px;
 }
 .about-me-content-text{
     background-color: #bbb;
     height: 400px;
-    min-width: 400px;
-    box-shadow: -23px -23px #999;
+    max-width: 400px;
     padding: 20px;
     font-size: 20px;
-    margin: 50px 0px;
 
 }
 .img-container {
@@ -124,16 +123,18 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 50px 0px;
+    margin: 20px;
+}
+.img-container img{
+    width: 100%;
 }
 .proj-img-container img{
     width: 100%;
 }
 .about-me-img{
-    height: 400px;
+    max-width: 400px;
     background-color: #bbb;
-    box-shadow: #999 -23px -23px;
-    border-radius: 20px;
+
 }
 
 /************** Skills Section *************/
@@ -190,11 +191,14 @@ body{
 .projects-container{
     display: grid;
     grid-template-columns: repeat(auto-fit , minmax(400px , 2fr));
-    grid-gap:30px;
+    grid-gap:10px;
+    padding: 40px;
 }
 .project{
+    position: relative;
     background-color: #444;
-    min-height: 300px;
+    max-height: 300px;
+    max-width: 300px;
 }
 .project-directory{
     color:#fff;
