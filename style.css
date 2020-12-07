@@ -119,12 +119,15 @@ body{
     margin: 50px 0px;
 
 }
-.img-container{
+.img-container {
     flex-grow: 1;
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 50px 0px;
+}
+.proj-img-container img{
+    width: 100%;
 }
 .about-me-img{
     height: 400px;
