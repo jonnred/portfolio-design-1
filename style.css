@@ -129,7 +129,7 @@ body{
     max-width: 400px;
     padding: 20px;
     font-size: 20px;
-    transition: 1s;
+    transition: .1s;
 
 }
 .about-me-content-text:hover{
