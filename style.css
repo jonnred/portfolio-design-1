@@ -216,3 +216,12 @@ body{
 .proj-img-container img {
     width: 100%;
 }
+@media screen and (max-width:600px){
+    .projects-container {
+        display: flex;
+        flex-direction: column;
+        padding:0%;
+        align-items: center;
+        justify-content: center;
+    }
+}
